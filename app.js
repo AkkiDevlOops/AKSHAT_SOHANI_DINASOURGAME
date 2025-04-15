@@ -75,7 +75,7 @@ function moveBarrier() {
       crashSound.currentTime = 0;
       crashSound.play();
       clearInterval(gameLoop);
-      clearInterval(scoreTimer); //  Stop score timer
+      clearInterval(scoreTimer); 
       setTimeout(() => {
         alert("Game Over! Your score: " + score + "s");
         window.location.reload();
