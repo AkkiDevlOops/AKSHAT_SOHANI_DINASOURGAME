@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background: #0d0d0d;
+  }
+  
+  .game {
+    position: relative;
+    width: 100%;
+    height: 345px;
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 3px solid black;
+  }
+  
+  #dino{
+    width: 5rem;
+    height: 5rem;
+     background-image: url(Dino.png);
+        background-size: cover;
+        position: absolute;
+        bottom: 0;
+        left: 50px;
+      
+      
+  }
+  #barrier {
+    width: 2.5rem;
+    height: 4.5rem;
+    background-image: url(cactus.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+  
+  }
+  #space-bar {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: red;
+    font-family: Arial, sans-serif;
+  }
+  #score {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 25px;
+    font-family: monospace;
+    color: #191616a7;
+  }
+  
+  
+  
